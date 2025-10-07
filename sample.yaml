@@ -1,4 +1,4 @@
-apiVersion: slowme.io/v1.0.0
+apiVersion: slowme.io/v1alpha1
 kind: Component
 metadata:
   name: backstage
