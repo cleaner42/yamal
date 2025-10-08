@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: awesome-webapp
+  description: |
+    A fantastic web application that solves all your problems!
+  links:
+    - title: Website
+      url: http://awesome-webapp.com
+    - title: Documentation
+      url: https://docs.awesome-webapp.com
+    - title: Storybook
+      url: https://storybook.awesome-webapp.com
+    - title: Slack Channel
+      url: https://workspace.slack.com/channels/awesome-webapp
+  annotations:
+    github.com/project-slug: acme-corp/awesome-webapp
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://awesome-webapp.com
+  tags:
+    - web-app
+    - react
+    - typescript
+    - microservice
+    - experimental
+
+spec:
+  type: service
+  owner: jane.smith@acme-corp.com
+  lifecycle: experimental
